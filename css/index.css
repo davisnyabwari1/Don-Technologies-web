@@ -1,0 +1,103 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+ body{
+     line-height: 1.6;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/slider/slider2.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     height:710px;
+   
+}
+
+span{
+    color:rgb(129, 208, 235);
+}
+.logo{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    background-color:rgba(59, 59, 59,0.6);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height:65px;
+  
+
+}
+
+.container li{
+    list-style:none;
+    padding:15px;
+ 
+} 
+.container ul{
+    display: flex;
+    align-items:center;
+
+
+}
+.container a{
+    color: white;
+    text-decoration:none;
+    font-weight:100px;
+   
+}
+ul a:hover{
+    color:rgb(87, 179, 209);
+
+}
+ul .active{
+    font-weight:bolder;
+    color:rgb(87, 179, 209);
+}
+
+.footerinfo{
+    margin-top:30rem;
+    background-color:#ebe8e8;
+    text-align: center;
+    padding:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button{
+    display: inline-block;
+    position: relative;
+    border: 2px solid rgb(87, 179, 209);
+    padding:10px 20px;
+    margin: 10px;
+    top:18rem;
+    left:32rem;
+    border-radius: 25px;
+    background-color:rgb(87, 179, 209);
+}
+.btn{
+    display: inline-block;
+    position: relative;
+    border: 2px solid;
+    padding:10px 20px;
+    margin: 10px;
+    top:18rem;
+    left:32rem;
+    border-radius: 25px;
+
+}
+.showcaseintro{
+    position: relative;
+    text-align: center;
+    top:10rem;
+    color:white;
+    line-height: 1.6;
+}
+.showcaseintro h1{
+    font-size:45px;
+    color: white;
+}
+.showcaseintro p{
+    font-size:18px;
+    
+}
